@@ -13,8 +13,8 @@ public class Car {
     }
 
     public Car(String Car_name, String Car_model){
-        this.Car_name = Car_name;
-        this.Car_model = Car_model;
+        Car.Car_name = Car_name;
+        Car.Car_model = Car_model;
     }
 
     public static void main(String[] args) {

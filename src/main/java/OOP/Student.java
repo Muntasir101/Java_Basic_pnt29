@@ -10,10 +10,10 @@ public class Student{
     static float average;
 
     public Student(String name, String mark1, String mark2, String mark3) {
-        this.name =name;
-        this.mark1 = Integer.parseInt(mark1);
-        this.mark2 = Integer.parseInt(mark2);
-        this.mark3 = Integer.parseInt(mark3);
+        Student.name =name;
+        Student.mark1 = Integer.parseInt(mark1);
+        Student.mark2 = Integer.parseInt(mark2);
+        Student.mark3 = Integer.parseInt(mark3);
     }
 
     //state
